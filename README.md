@@ -65,6 +65,15 @@ Xelatex --> Bibtex --> Xelatex
 			\subsection{小節名} % 宣告小節開始
 				\subsubsection{小小節名} % 宣告小小節開始
 
+## 使用範例(Best-Practices)
+1. 如何插入圖片
+```
+\begin{figure}[h]
+\includegraphics{test.png}
+\caption{test.png}\label{ex1}
+\end{figure}
+```
+
 ## 參考文件(Reference)
 [大家來學LATEX.pdf](http://jupiter.math.nctu.edu.tw/~smchang/latex/latex123.pdf)
 [BibTex範本](https://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf)
