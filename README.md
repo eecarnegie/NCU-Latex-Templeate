@@ -13,9 +13,12 @@
 ### MAC使用者的編譯順序
 
 Xelatex --> Bibtex --> Xelatex
-[Step1](https://github.com/eecarnegie/NCU-Latex-Templeate/blob/ADD_example/pic/Step1.png)
-[Step2](https://github.com/eecarnegie/NCU-Latex-Templeate/blob/ADD_example/pic/Step2.png)
-[Step3](https://github.com/eecarnegie/NCU-Latex-Templeate/blob/ADD_example/pic/Step3.png)
+
+![Step1](https://github.com/eecarnegie/NCU-Latex-Templeate/blob/ADD_example/pic/Step1.png)
+
+![Step2](https://github.com/eecarnegie/NCU-Latex-Templeate/blob/ADD_example/pic/Step2.png)
+
+![Step3](https://github.com/eecarnegie/NCU-Latex-Templeate/blob/ADD_example/pic/Step3.png)
 
 
 ## build成功的範例檔案為
