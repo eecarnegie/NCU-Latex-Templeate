@@ -67,3 +67,4 @@ Xelatex --> Bibtex --> Xelatex
 
 ## 參考文件(Reference)
 [大家來學LATEX.pdf](http://jupiter.math.nctu.edu.tw/~smchang/latex/latex123.pdf)
+[BibTex範本](https://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf)
