@@ -73,7 +73,39 @@ Xelatex --> Bibtex --> Xelatex
 \caption{test.png}\label{ex1}
 \end{figure}
 ```
+2. 如何插入表格
+```
+\documentclass{IEEEtran}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@makecaption}
+  {\scshape}
+  {}
+  {}
+  {}
+\makeatother
+
+\begin{document}
+\begin{table}[ht]
+\centering
+\caption{Default parameters used for Monte Carlo Model.}
+\label{tab:default}
+\begin{tabular}{|l|c|}
+\hline
+  \multicolumn{2}{|c|}{Default Parameters} \\
+  \hline
+Disk Purchase cost & $\$100$ \\
+Disk Operating Cost & $\$66$ \\
+Flash Purchase Cost & $\$500$\\
+Flash Operating cost & $\$20$\\
+Duration & 100 years\\
+$K_r$& .15\\
+\hline
+\end{tabular}
+\end{table}
+\end{document} 
+```
 
 ## 參考文件(Reference)
-[大家來學LATEX.pdf](http://jupiter.math.nctu.edu.tw/~smchang/latex/latex123.pdf)
-[BibTex範本](https://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf)
+[大家來學LATEX.pdf](http://jupiter.math.nctu.edu.tw/~smchang/latex/latex123.pdf) \
+[BibTex範本](https://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf) \
