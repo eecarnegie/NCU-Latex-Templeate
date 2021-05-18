@@ -75,17 +75,6 @@ Xelatex --> Bibtex --> Xelatex
 ```
 2. 如何插入表格
 ```
-\documentclass{IEEEtran}
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd{\@makecaption}
-  {\scshape}
-  {}
-  {}
-  {}
-\makeatother
-
-\begin{document}
 \begin{table}[ht]
 \centering
 \caption{Default parameters used for Monte Carlo Model.}
@@ -103,7 +92,6 @@ $K_r$& .15\\
 \hline
 \end{tabular}
 \end{table}
-\end{document} 
 ```
 
 ## 參考文件(Reference)
